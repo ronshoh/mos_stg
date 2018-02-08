@@ -1,0 +1,5 @@
+Args: Namespace(alpha=2, batch_size=12, beta=1, bptt=70, clip=0.25, continue_train=False, cuda=True, data='data/penn', dropout=0.4, dropoute=0.1, dropouth=0.225, dropouti=0.4, dropoutl=0.29, emsize=280, epochs=1000, log_interval=200, lr=20.0, max_seq_len_delta=40, model='LSTM', n_experts=15, nhid=960, nhidlast=620, nlayers=3, nonmono=5, save='PTB-20180208-123227', seed=28, single_gpu=True, small_batch_size=12, tied=True, wdecay=1.2e-06, wdrop=0.5)
+Model total parameters: 21500620
+| epoch   1 |   200/ 1106 batches | lr 20.00 | ms/batch 388.29 | loss  6.95 | ppl  1042.22
+| epoch   1 |   400/ 1106 batches | lr 20.00 | ms/batch 175.11 | loss  6.40 | ppl   602.63
+| epoch   1 |   600/ 1106 batches | lr 20.00 | ms/batch 169.48 | loss  6.09 | ppl   439.67
